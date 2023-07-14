@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 axios.defaults.validateStatus = (code) => code < 500;
 
 const mainUrl =
-  'https://anunciaki-web-default-rtdb.firebaseio.com/anuncios.json?orderBy="category"&equalTo="PARAMS"';
+  'https://use_your_Realtime_database_link/anuncios.json?orderBy="category"&equalTo="PARAMS"';
 
 const Category = () => {
   const params = useParams();

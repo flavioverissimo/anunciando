@@ -2,8 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-const mainUrl =
-  "https://anunciaki-web-default-rtdb.firebaseio.com/anuncios/PARAM.json";
+const mainUrl = "https://use_your_Realtime_database_link/anuncios/PARAM.json";
 
 const Announcement = () => {
   const [data, setData] = useState({});

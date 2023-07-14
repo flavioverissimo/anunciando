@@ -31,7 +31,7 @@ const NewAnnouncement = ({ categories }) => {
   const setDataForm = (evt) => {
     if (evt.target.name === "src" && evt.target.files[0].name !== "") {
       const src =
-        "https://firebasestorage.googleapis.com/v0/b/anunciaki-web.appspot.com/o/" +
+        "https://firebasestorage.googleapis.com/v0/b/use_your_storage_link/o/" +
         evt.target.files[0].name +
         "?alt=media";
       setData((old) => {
